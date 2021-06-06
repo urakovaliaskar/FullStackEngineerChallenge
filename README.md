@@ -18,17 +18,20 @@ $ yarn install
 $ yarn serve
 ```
 
+Backend App run
 Open another terminal and run
 
 ```
 $ cd backend
 $ yarn install
-$ yarn run knex: migrate
-$ yarn run knex: seed
+$ yarn run knex:migrate
+$ yarn run knex:seed
 $ yarn serve
 ```
 
-## There are 2 seeded user
+See package.json in backend folder for more scripts.
+
+## There are 2 seeded users
 
 - email: admin@paypay.com password: admin
 - email: user@paypay.com password: user
