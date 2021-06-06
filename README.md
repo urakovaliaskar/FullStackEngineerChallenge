@@ -8,6 +8,8 @@
 $ git submodule update --init --recursive
 ```
 
+I use yarn, but you can run with npm no problem.
+
 Frontend App run
 
 ```
@@ -21,11 +23,14 @@ Open another terminal and run
 ```
 $ cd backend
 $ yarn install
+$ yarn run knex: migrate
+$ yarn run knex: seed
 $ yarn serve
 ```
 
-## What are we looking for? What does this prove?
+## There are 2 seeded user
 
-- Assumptions you make given limited requirements
-- Technology and design choices
-- Identify areas of your strengths
+- email: admin@paypay.com password: admin
+- email: user@paypay.com password: user
+
+Enjoy!
